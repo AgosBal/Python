@@ -126,11 +126,13 @@ Cuando interactuamos con las computadoras, no escribimos directamente en lenguaj
 
 Estos lenguajes de alto nivel son más fáciles de entender para nosotros, los humanos, ya que utilizan palabras clave, estructuras de control y funciones que hacen que la escritura y lectura del código sea más intuitiva y legible. Por ejemplo, podemos escribir un programa para sumar dos números en Python de la siguiente manera:
 
-**def suma(a, b):**
-    **return a + b**
+```python
+def suma(a, b):
+    return a + b
 
-**resultado = suma(5, 7)**
-**print(resultado)**
+resultado = suma(5, 7)
+print(resultado)
+```
 
 Este código en Python es mucho más claro y sencillo de entender que su equivalente en lenguaje de máquina, que consistiría en una secuencia de 1's y 0's que indican al procesador cómo realizar la suma.
 
