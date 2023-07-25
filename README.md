@@ -1,100 +1,58 @@
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
+</head>
+<body>
+  <div class="container">
+    <img src="img/Evolución computadoras.JPG" alt="Evolución computadoras">
+    <p>Evolución computadoras</p>
+  </div>
+</body>
+</html>
 
-## Principales Objetivos de Aprendizaje para esta Clase
 
+## Objetivos de Aprendizaje
 - Comprender los principios básicos de la Ciencia de la Computación.
 
 # Introducción al pensamiento computacional
 ## Introducción al cómputo
 
-Posiblemente la primera computadora fue creada por los **antiguos griegos** el cual tenia el propósito de calcular las posiciones del Sol, Luna y algunos otros cuerpos celestes.
-##### [Mecanismo Anticitera](https://es.wikipedia.org/wiki/Mecanismo_de_Anticitera)
-<img src="../_src/assets/00-IntroToCS/computadora-griega.jpg"  height="250">
+La historia del cómputo se remonta a tiempos antiguos. Los **antiguos griegos** crearon posiblemente la primera computadora, que tenía el propósito de calcular las posiciones del *Sol*, la *Luna* y otros *cuerpos celestes*. Posteriormente, en la **época más moderna**, se desarrollaron tecnologías como el *telar de Jacquard*, un dispositivo mecánico que utilizaba tarjetas perforadas para tejer patrones complejos en la tela.
 
-Miles de años después se creo el [**telar de Jacquard**](https://es.wikipedia.org/wiki/Telar_de_Jacquard), que funcionaba con tarjetas que se creaban con pequeños huecos que representaban la información que el telar tenía que hacer en un pedazo de tela.
+El avance de la tecnología llevó a la creación del *motor analítico de Charles Babbage*, una máquina diseñada para realizar cálculos. Luego, las máquinas tabuladoras revolucionaron el procesamiento de datos para realizar censos con mayor precisión y velocidad.
 
-<img src="../_src/assets/00-IntroToCS/Telar-de-Jacquard.jpg"  height="250">
-<h5>Telar de Jacquard</h5>
+En el **siglo XX**, las ideas de *Alan Turing* y *Alonzo Church* sentaron las bases del pensamiento computacional, al demostrar que todos los algoritmos podían ser reducidos a una máquina abstracta con una cinta infinita para manipular símbolos. Esto llevó al desarrollo de la primera computadora electrónica, el *ENIAC*.
 
-Después llego el [**motor analítico de Charles Babbage**](https://es.wikipedia.org/wiki/M%C3%A1quina_anal%C3%ADtica#:~:text=La%20m%C3%A1quina%20anal%C3%ADtica%20es%20el,hasta%20su%20muerte%20en%201871.), el cual ocupó la tecnología de punta en su época para poder realizar cálculos.
+*John von Neumann* propuso una arquitectura que permitía almacenar programas en la memoria junto con los datos, lo que se conoció como la *arquitectura de von Neumann*. Con la evolución de los microchips, la computación moderna dio paso a la tecnología que conocemos hoy en día.
 
-<img src="../_src/assets/00-IntroToCS/motor-babbage.jpg"  height="250">
-<h5>Motor analítico de Charles Babbage</h5>
-
-A finales del siglo XIX el gobierno de EE.UU. tenia serios problemas para realizar los censos como mandaba la constitución. En este momento fue cuando llegó la [**máquina tabuladora**](https://es.wikipedia.org/wiki/Tabuladora), la cual se utilizó para realizar los censos con tarjetas, obteniendo resultados más rápidos y certeros.
-
-<img src="../_src/assets/00-IntroToCS/maquina-tabuladora.jpg"  height="250">
-<h5>Máquina Tabuladora</h5>
-
-Antiguamente existía la **profesión de computadora**, la cual eran personas que se dedicaban a seguir ciertas instrucciones para obtener los resultados. Sin embargo estos resultados estaban plagados de errores. Al inicio del siglo XX ya existían compañías que tenían la necesidad de realizar cálculos exactos y a gran escala. Es aquí donde llegan **Alan Turing** y **Alonzo Church** con la idea de que todos los algoritmos desarrollados por la humanidad podían ser reducidas a una máquina imaginaria, que tuviera una cinta infinita donde apuntarían símbolos y estos símbolos se pudieran manipular. Gracias a esa idea, se comenzó la carrera para crear la primera computadora electrónica, el cual fue el **ENIAC**.
-
-<img src="../_src/assets/00-IntroToCS/church_alonzo.jpg"  height="250">
-<img src="../_src/assets/00-IntroToCS/alan-turing.jpg"  height="250">
-<img src="../_src/assets/00-IntroToCS/eniac.jpg"  height="250">
-<h5>Alonzo Chruch, Alan Turing y la maquina ENIAC respectivamente.</h5>
-
-**John von Neumann** se dio cuenta de que en el hardware no solo se podía almacenar el poder de cómputo, también los programas para ejecutar. A esta arquitectura se le llama la **arquitectura de von Neumman.** De esta arquitectura nace la máquina **EDVAC** (Electronic Discrete Automatic Computer).
-
-<img src="../_src/assets/00-IntroToCS/neumann-edvac.jpeg"  height="250">
-<h5>John von Neumann junto a la máquina EDVAC.</h5>
-
-<img src="../_src/assets/00-IntroToCS/arquitectura-neumann.png"  height="250">
-<h5>La arquitectura von Neumann.</h5>
-
-Con la llegada de los **microchips** llegó la pauta para la computación de hoy en día. Estos microchips, con el tiempo, lograron ser tan pequeños gracias a la tecnología de la [**fotónica.**](https://es.wikipedia.org/wiki/Fot%C3%B3nica)
-
-<img src="../_src/assets/00-IntroToCS/microchips.jpg"  height="250">
-<img src="../_src/assets/00-IntroToCS/oblea-silicio.jpg"  height="250">
-<h5>Microchip y Oblea de Silicio respectivamente.</h5>
-
-Ya en nuestros tiempos llegó la **nube**, que son data centers que no son más que miles o millones de computadoras.
-
-<img src="../_src/assets/00-IntroToCS/nube.jpg"  height="250">
-<h5>Sala de servidores de una nube.</h5>
-
-## Computer Science
+## Computer Science (Ciencia de la Computación)
 
 Computer Science (CS) es el estudio de procesos algorítmicos, sistemas computacionales y las computadoras per se. A continuación se darán a conocer las tres principales áreas de estudio.
 
 ### Teoria Computacional
 
-Aquí se encuentra el aprendizaje y análisis de algoritmos. Un algoritmo es una sucesión de pasos ordenados que al repetirse de forma sistemática logra resolver un problema. A su vez, los algoritmos traen consigo un nuevo concepto: la complejidad.
-Por otro lado, en este mismo se encuentra la teoría de grafos, criptografía, hardware y estructuras de datos. Estos últimos se utilizan para organizar los datos de forma eficiente para su posterior uso.
+La Ciencia de la Computación (Computer Science) es el estudio de procesos algorítmicos, sistemas computacionales y las computadoras en sí. Tiene tres áreas principales de estudio:
 
-### Aplicaciones
+Teoría Computacional: Se enfoca en el aprendizaje y análisis de algoritmos, que son secuencias de pasos ordenados que resuelven problemas específicos. Además, abarca conceptos como la complejidad algorítmica, la teoría de grafos, la criptografía, el hardware y las estructuras de datos.
 
-Por otro lado, existe la inteligencia artificial, robótica, machine learning, satisfacibilidad booleana,  procesamiento de imágenes, procesamiento de lenguaje natural, realidad aumentada. Por último, big data y lo que se conoce como hacking ético.
+Aplicaciones: Se centra en áreas de la informática como la inteligencia artificial, la robótica, el aprendizaje automático (machine learning), la satisfacibilidad booleana, el procesamiento de imágenes, el procesamiento de lenguaje natural, la realidad aumentada, el análisis de big data y el hacking ético.
 
-### Ingeniería Computacional
+Ingeniería Computacional: Se ocupa de la ingeniería del software y el desarrollo de programas y aplicaciones. Incluye el conocimiento y desarrollo de diversos lenguajes de programación, la arquitectura de computadoras, los compiladores y otros aspectos relacionados.
 
-En última instancia, ingeniería computacional. En esta instancia podemos encontrar ingeniería del software, donde prevalece el desarrollo del mismo. El conocimiento y desarrollo de diversos lenguajes de programación, arquitectura de computadoras, compiladores de código, entre otros.
+## Circuitos Eléctricos y Conectores Lógicos
 
-## Circuitos Eléctricos
+Antes de comprender el funcionamiento de una computadora, es importante entender los circuitos eléctricos. Un circuito eléctrico es una interconexión de componentes eléctricos que permite el flujo de corriente eléctrica en una trayectoria cerrada.
 
-Para poder entender el funcionamiento de una computadora y sus orígenes, antes tenemos que conocer qué es y cómo funciona un circuito eléctrico.
+Para entender los conceptos lógicos en computación, podemos asociar interruptores a valores lógicos: un interruptor abierto representa el valor lógico 0 (falso) y un interruptor cerrado representa el valor lógico 1 (verdadero).
 
-Un circuito eléctrico es una interconexión de componentes eléctricos que transporta corriente eléctrica a través de una trayectoria cerrada. Imaginemos una batería, ahora pensemos que dicha batería está conectada a través de cables a una lámpara, si deseamos prender la lámpara necesitamos que la misma reciba corriente, ¿Cómo haríamos eso? Podemos tener un interruptor que, al cerrarlo prende la lámpara.
+- El conectivo AND se representa con interruptores en serie. Para que una lámpara se encienda (valor 1), ambos interruptores deben estar cerrados (valor 1).
 
-![AND Operator](../_src/assets/00-IntroToCS/AND.png)
+- El conectivo OR se representa con interruptores en paralelo. Si al menos uno de los interruptores está cerrado (valor 1), la lámpara se enciende (valor 1).
 
-En el caso ilustrado para poder prender la lámpara necesitamos cerrar tanto A como B. Esto se debe a que si cierro A pero no B, la energía de la batería logra llegar hasta el interruptor B, pero dado que el interruptor B está abierto, la energía se pierde y por lo tanto no llega al otro extremo derecho, no llega a la lámpara.
+- El conectivo XOR (OR exclusiva) se representa con interruptores en paralelo, pero no ambos interruptores pueden estar cerrados al mismo tiempo. Solo uno de ellos debe estar cerrado para que la lámpara se encienda (valor 1).
 
-Si A está abierto, pero B cerrado, la energía no llega al interruptor B, y por consiguiente, la lámpara no podría prenderse.
-En el caso de que tanto el interruptor A como el interruptor B estén cerrados, la energía logra fluir hasta llegar a la lámpara y lograr prenderla.
+- El conectivo NOT (negación) es simplemente el opuesto de un interruptor. Si un interruptor está abierto (valor 0), al agregar una negación, se cierra (valor 1).
 
-Una alternativa, sería colocar dos interruptores de forma paralela de forma tal que si cierro uno, pero mantengo el otro abierto, la energía tiene un camino alternativo por donde pasar.
+Estos conectores lógicos son fundamentales para la construcción de circuitos y la realización de operaciones lógicas en una computadora. La combinación de diferentes conectores lógicos permite realizar tareas más complejas y desarrollar programas y algoritmos eficientes.
 
-![OR Operator](../_src/assets/00-IntroToCS/OR.png)
-
-En este caso, si cierro el interruptor A pero mantengo el interruptor B abierto, la lámpara se prende igual. Esto se debe a que la energía de la batería pasa por el camino cerrado hasta alcanzar la lámpara. Análogo es el caso en el que el interruptor A está abierto y el interruptor B cerrado.
-
-Si buscamos asociar lo ya mencionado a lógica, podríamos considerar que cuando el interruptor está abierto su valor es 0 y cuando el interruptor está cerrado su valor es 1. Y la lámpara encendida es 1. Por lo tanto, en el primer caso, para poder prender la lámpara necesitamos que tanto el interruptor A como el interruptor B estén cerrados, es decir que ambos valores estén en 1. En el segundo caso, con que uno esté abierto ya es suficiente, por lo tanto podríamos tener A con un valor 0 y B con un valor 1 o viceversa, o ambos con valor 1.
-
-En conclusión, el uso de interruptores en serie (primer caso) representa un AND, y el uso de interruptores en paralelo (segundo caso) representa un OR. A partir de diversas combinaciones podremos lograr cada uno de los conectores lógicos.
-
-#### Conectores Lógicos
-
-A continuación y a modo de repaso, las tablas de verdad para cada uno de los conectores lógicos más utilizados: AND, OR, XOR, NOT
+**Tablas de verdad**
 
 A | B | AND
 --| --| --
@@ -124,122 +82,58 @@ A | NOT
 
 ## Half Adder
 
-En función de las compuertas o puertas lógicas y a través de la combinación de estas podemos lograr diversas operaciones, por ejemplo un sumador de números.
+Un Half Adder (medio sumador) es un circuito lógico utilizado en computación para sumar dos bits individuales (un bit es un 0 o un 1) y producir dos resultados: la suma y el acarreo (carry).
 
-En la escuela nos enseñaron a sumar con números decimales pero, las computadoras en su interior trabajan con un sistema binario, es decir sistema numérico de dos dígitos el 1 y el 0.
-Por ejemplo, si quisiéramos sumar 19+24 sabemos que la suma de 9+4 = 13, por lo tanto en el resultado final en la unidad nos queda un 3 y debemos “llevarnos” la decena. Luego, para la decena debemos sumar 1 + 2 + 1 = 4. Obteniendo como resultado final 43.
-En el Half Adder, ese rol de acarreo lo hace la puerta lógica AND mientras que el XOR efectúa la suma. Si quisiéramos trasladar el mismo ejemplo ya mencionado, en primer lugar debemos conocer cual es el valor de 19 y 24 en binario. Más adelante veremos cómo hacer dicha transformación, pero por ahora, confíen que 19 = 10011 y 24 = 11000.
+En un sistema binario, la suma de dos bits puede ser 0, 1 o 10 (que se representa como 2 en decimal). El Half Adder resuelve esta operación y proporciona los resultados correctos.
 
-1 | 0   | 0     | 1   | 1
--- | --- | ----- | ----| ---
-1| 1 | 0  |0 |0
-
-Comenzando de derecha a izquierda. 1 AND 0 = 0 por lo tanto NO acarreo, y por otro lado debo hacer 1 XOR 0 = 1. El segundo, es análogo
+Por ejemplo, consideremos la suma de los números binarios 10011 y 11000. Utilizaremos el Half Adder para realizar la suma bit a bit:
 
 1 | 0   | 0     | 1   | 1
--- | --- | ----- | ----| ---
-1| 1 | 0  |0 |0
-|  | | |1 |1
+--|-----|-------|-----|---
+1 | 1   | 0     | 0   | 0
 
-0 AND 0 = 0, NO acarreo. Luego, 0 XOR 0 = 0. Por lo tanto,
 
-1 | 0   | 0     | 1   | 1
--- | --- | ----- | ----| ---
-1| 1 | 0  |0 |0
-| | 1 |  0 |1 |1
+Comenzamos de derecha a izquierda. Para el primer bit, 1 AND 0 = 0 (sin acarreo), y 1 XOR 0 = 1. Luego, continuamos con el segundo bit, 0 AND 0 = 0 (sin acarreo), y 1 XOR 0 = 1. Procedemos con el tercer bit, 0 AND 0 = 0 (sin acarreo), y 1 XOR 0 = 1. En el cuarto bit, 1 AND 0 = 0 (sin acarreo), y 1 XOR 0 = 1. Finalmente, en el quinto bit, 1 AND 1 = 1 (hay acarreo), y 1 XOR 1 = 0.
 
-Llegamos al último caso, 1 AND 1 = 1, por lo tanto hay acarreo.
+Completamos con ceros a la izquierda para tener la misma longitud en ambos números:
 
-1|1 | 0   | 0     | 1   | 1
---|-- | --- | ----- | ----| ---
-|1| 1 | 0  |0 |0
-||1 |  0 |1 |1
+  1 | 1   | 0   | 0     | 1   | 1
+--|-----|-----|-------|-----|---
+0 | 1   | 1   | 0     | 0   | 0
 
-1 XOR 1 = 0
-
-1|1 | 0   | 0     | 1   | 1
---|-- | --- | ----- | ----| ---
-|1| 1 | 0  |0 |0
-|0|1 |  0 |1 |1
-
-Se completa con 0s. Por lo tanto, resta resolver 1 AND 0 = 0, NO hay acarreo. 1 XOR 0 = 1.
-
-1|1 | 0   | 0     | 1   | 1
---|-- | --- | ----- | ----| ---
-0|1| 1 | 0  |0 |0
-1|0|1 |  0 |1 |1
-
-101011 = 43
+La suma binaria resultante es 101011, que es el equivalente al número decimal 43.
 
 ## Sistemas de Numeración
+Los sistemas de numeración son formas de representar cantidades mediante símbolos y reglas específicas. Existen varios sistemas, algunos de los cuales son:
 
 ### Sistema Unario
-
-Es el sistema de numeración más simple, posee un único símbolo para representar todos los números existentes. Supongamos que el símbolo elegido sea “I”, si quisiéramos representar el número 3 del sistema decimal, lo haríamos de la siguiente manera: “III”. Su principal desventaja es que no nos permite simbolizar de forma cómoda y rápida un conjunto con muchos elementos.
+Es el más simple, donde se utiliza un único símbolo repetido para representar cada cantidad. Por ejemplo, el número 3 se representaría como "III". Sin embargo, este sistema no es práctico para representar cantidades grandes.
 
 ### Números Romanos
-
-En este caso existen 7 símbolos o signos para representar todos los números posibles. El orden de estos símbolos, importa, se basa en un sistema aditivo, cada signo representa un valor que se va sumando al anterior. La numeración romana, luego, evolucionó a un sistema sustractivo, en el cual algunos signos en lugar de sumar, restan. Si el valor a la izquierda es menor, entonces resta.
-
-Por ejemplo:
-
-CXVII = cien + diez + cinco + uno + uno
-
-MCMV = mil  + (mil - cien) + cinco
+Este sistema utiliza siete símbolos diferentes para representar los números, y se basa en reglas aditivas y sustractivas. Por ejemplo, el número 117 se representa como "CXVII", que se lee como cien + diez + cinco + uno + uno.
 
 ### Sistemas Posicionales
+En estos sistemas, cada dígito tiene un valor que depende de su posición en la cifra y de la base del sistema numérico. Los sistemas decimales y binarios son ejemplos de sistemas posicionales. En el sistema decimal, la base es 10 y los dígitos van desde 0 hasta 9. En el sistema binario, la base es 2 y solo hay dos dígitos: 0 y 1.
 
-Un sistema posicional es aquel en donde cada dígito posee un valor que depende de su posición relativa, la cual está determinada por la base, número de dígitos necesarios para escribir cualquier número. En el caso de un sistema decimal, base 10, ya que el número de dígitos es 10, de 0 a 9.
+### Conversión entre Binario y Decimal
+Para convertir un número binario a decimal, se multiplican los dígitos individuales por las potencias de 2 (según su posición) y luego se suman los resultados. Por ejemplo, para el número binario 10101:
 
-Por lo tanto, además del número de unidades que representa, considerado en forma aislado, tiene un significado o peso distinto según la posición que ocupa en el grupo de caracteres del que forma parte.
-
-### Representación de Cantidades:
-
-Uno de las necesidades principales por las que los humanos creamos los sistemas de numeración, es la de representar cantidades. Supongamos que queremos representar cantidades de estrellas, u usamos sistemas con diferente **base**, es decir, la cantidad de elementos distintos disponibles:
-
-
-| Base  |   | * | * * | * * * | * * * * | * * * * * | * * * * * * |
-| :---  |:-:|:-:| :-: | :---: | :-----: | :-------: | ----------: |
-| 10    | 0	| 1	| 2   | 3     | 4       | 5         | 6		        |
-| 2     | 0	| 1	| 10  | 11    | 100     | 101       | 110		      |
-| 5     | 0	| 1	| 2   | 3     | 4       | 10        | 11		      |
-
-| Base  | * * * * * * * | * * * * * * * * | * * * * * * * * * | * * * * * * * * * * |
-| :---  | :-----------: | :-------------: | :---------------: | ------------------: |
-| 10    | 7             | 8		            | 9                 | 10                  |
-| 2     | 111           | 1000	          | 1001              | 1010                |
-| 5     | 12            | 13		          | 14                | 20                  |
-
-### Binario <> Decimal
-
-Ahora es momento de entender cómo transformar un número binario en un número decimal y viceversa. Si queremos realizar una transformación de binario a decimal debemos utilizar la fórmula que se encuentra debajo.
-
-Por ejemplo:
-Supongamos 10101, comenzando de derecha a izquierda, cada 1 o 0 será multiplicado por 2^n en donde n describe la posición en el que se encuentra, siendo el más derecho, la posición 0. El resultado final será la sumatoria de todos ellos.
-
- 1 | 0   | 1     | 0   | 1
--- | --- | ----- | ----| ---
-2^4| 2^3 |  2^2  | 2^1 | 2^0
-
-Por lo tanto:
 1x2^4 + 0x2^3 + 1x2^2 + 0x2^1 + 1x2^0 = 16 + 0 + 4 + 0 + 1 = 21
 
-En cuanto al pasaje de decimal a binario, debemos dividir por dos y quedarnos con el resto, dicho resto va a ser quien nos marque el binario involucrado.
-
-Por ejemplo:
-Realizamos la operación inversa, convertimos 21 en binario.
-
-21/2 = 10 (resto 1)
-10/2 = 5 (resto 0)
-5/2 = 2 (resto 1)
-2/2 = 1 (resto 0)
-1/2 = 0 (resto 1)
-
-Ahora leemos de abajo hacia arriba los restos, al concatenarlos, obtendremos nuestra solución en binario 10101.
 
 ## Lenguaje de Máquina
+Cuando interactuamos con las computadoras, no escribimos directamente en lenguaje binario (1's y 0's) porque sería extremadamente tedioso y propenso a errores. En cambio, utilizamos lenguajes de programación de alto nivel, como Python, Java, C++, entre otros, que nos permiten expresar nuestras instrucciones en un formato más cercano al lenguaje humano y con una mayor abstracción.
 
-Recordemos que las computadoras, sólo entienden ceros (0) y unos (1). Ahora bien, ¿Nosotros escribimos en 1's y 0's? No.
-Existen lenguajes de alto y bajo nivel que luego deben ser traducidos a lenguaje maquina, lenguaje interpretable por la computadora. La "traducción" la llamaremos compilación.
+Estos lenguajes de alto nivel son más fáciles de entender para nosotros, los humanos, ya que utilizan palabras clave, estructuras de control y funciones que hacen que la escritura y lectura del código sea más intuitiva y legible. Por ejemplo, podemos escribir un programa para sumar dos números en Python de la siguiente manera:
 
-![Compilar](../_src/assets/00-IntroToCS/compilation.png)
+**def suma(a, b):**
+    **return a + b**
+
+**resultado = suma(5, 7)**
+**print(resultado)**
+
+Este código en Python es mucho más claro y sencillo de entender que su equivalente en lenguaje de máquina, que consistiría en una secuencia de 1's y 0's que indican al procesador cómo realizar la suma.
+
+Una vez que hemos escrito nuestro código en un lenguaje de alto nivel, este debe ser traducido o compilado a lenguaje de máquina, para que la computadora pueda ejecutarlo. El proceso de compilación es realizado por un compilador, que toma el código en lenguaje de alto nivel y lo transforma en instrucciones en lenguaje de máquina que la computadora pueda entender y ejecutar.
+
+De esta manera, gracias a los lenguajes de programación de alto nivel y al proceso de compilación, podemos desarrollar aplicaciones y programas de manera más eficiente y menos propensa a errores, haciendo que la programación sea accesible y poderosa para una amplia gama de personas.
