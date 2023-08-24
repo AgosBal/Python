@@ -2,7 +2,7 @@
 * Returning to Python practices
 * Get data from a csv. file
 * Apply the concept of dictionary, values and keys
-* Recogniza different types of data
+* Recognize different types of data
 * Remove or replace a string or substring with .replace() + Create regular expressions + Leverage re.sub() to make complex rules + Set up multiple replacement rules
 
 
